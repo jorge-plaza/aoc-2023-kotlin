@@ -78,7 +78,7 @@ data class State(
 )
 
 
-fun parse(input: List<String>): State {
+private fun parse(input: List<String>): State {
     val numbers = mutableSetOf<Num>()
     val symbols = mutableSetOf<Symbol>()
     var num = Num()
